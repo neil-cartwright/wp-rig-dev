@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "localhost:3000",
+      "bypassPort": "8000",
+      "https": false
+    }
+  }
+}
