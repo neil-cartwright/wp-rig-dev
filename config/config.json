@@ -2,8 +2,8 @@
   "dev": {
     "browserSync": {
       "live": true,
-      "proxyURL": "localhost:3000",
-      "bypassPort": "8000",
+      "proxyURL": "http://localhost/sitepages/wp-rig-dev/",
+      "bypassPort": "3000",
       "https": false
     }
   }
