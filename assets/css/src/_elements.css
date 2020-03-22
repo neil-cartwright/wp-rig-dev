@@ -7,6 +7,7 @@
 html {
 	box-sizing: border-box;
 }
+
 /* stylelint-enable */
 
 /**
@@ -22,9 +23,11 @@ html {
 
 /* stylelint-disable */
 body {
-	background: #fff;
+	@apply font-sans bg-gray-100 text-sm;
 	/* Fallback for when there is no custom background color defined. */
 }
+
+
 /* stylelint-enable */
 
 /* stylelint-disable */
@@ -34,6 +37,7 @@ hr {
 	height: 1px;
 	margin-bottom: 1.5em;
 }
+
 /* stylelint-enable */
 
 ul,
@@ -49,8 +53,8 @@ ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -69,6 +73,7 @@ img {
 	height: auto;
 	max-width: 100%;
 }
+
 /* stylelint-enable */
 
 /* Extra wide images within figure tags don't overflow the content area. */

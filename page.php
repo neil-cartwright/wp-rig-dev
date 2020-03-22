@@ -15,7 +15,7 @@ get_header();
 wp_rig()->print_styles('wp-rig-content');
 
 ?>
-<main id="primary" class="site-main bg-gray-500">
+<main id="primary" class="site-main">
 	<?php
 
 	while (have_posts()) {
