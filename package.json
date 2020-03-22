@@ -62,6 +62,7 @@
     "import-fresh": "^3.2.1",
     "jest": "^24.9.0",
     "jest-expect-message": "^1.0.2",
+    "laravel-mix": "^5.0.4",
     "map-stream": "0.0.7",
     "mississippi": "^4.0.0",
     "mkdirp": "^0.5.3",
@@ -123,5 +124,8 @@
   },
   "directories": {
     "test": "tests"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
   }
 }
