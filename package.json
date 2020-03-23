@@ -14,9 +14,9 @@
     "url": "https://github.com/wprig/wprig/issues"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/register": "^7.8.6",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
     "@wordpress/eslint-plugin": "^2.4.0",
     "ajv": "^6.12.0",
     "ansi-colors": "^4.1.1",

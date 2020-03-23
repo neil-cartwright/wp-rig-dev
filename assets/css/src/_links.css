@@ -27,3 +27,10 @@ a:hover,
 a:active {
 	outline: 0;
 }
+/* tailwind */
+#primary-menu .menu-item {
+	@apply my-4 mr-4 pr-2 px-2;
+}
+#primary-menu .menu-item>a {
+	@apply text-gray-100 py-2;
+}

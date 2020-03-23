@@ -24,6 +24,7 @@ namespace WP_Rig\WP_Rig;
 	<?php
 	}
 	?>
+	
 
 	<?php
 	$wp_rig_description = get_bloginfo('description', 'display');

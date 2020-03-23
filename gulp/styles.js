@@ -12,7 +12,7 @@ import postcssPresetEnv from 'postcss-preset-env';
 import AtImport from 'postcss-import';
 import pump from 'pump';
 import cssnano from 'cssnano';
-import stylelint from 'stylelint';
+// import stylelint from 'stylelint';
 import reporter from 'postcss-reporter';
 import calc from 'postcss-calc';
 import {
@@ -49,13 +49,13 @@ export function stylesBeforeReplacementStream() {
 			dest: paths.styles.dest,
 			extra: [paths.config.themeConfig],
 		}),
-		gulpPlugins.phpcs({
-			bin: `${ rootPath }/vendor/bin/phpcs`,
-			standard: 'WordPress',
-			warningSeverity: 0,
-		}),
+		// gulpPlugins.phpcs({
+		// 	bin: `${ rootPath }/vendor/bin/phpcs`,
+		// 	standard: 'WordPress',
+		// 	warningSeverity: 0,
+		// }),
 		// Log all problems that were found.
-		gulpPlugins.phpcs.reporter('log'),
+		// gulpPlugins.phpcs.reporter('log'),
 	]);
 }
 
@@ -63,7 +63,7 @@ export function stylesAfterReplacementStream() {
 	const config = getThemeConfig();
 
 	const postcssPlugins = [
-		stylelint(),
+		// stylelint(),
 		postcssPresetEnv({
 			importFrom: (
 				configValueDefined('config.dev.styles.importFrom') ?
@@ -118,7 +118,7 @@ export function stylesAfterReplacementStream() {
 			AtImport({
 				path: [paths.styles.srcDir],
 				plugins: [
-					stylelint(),
+					// stylelint(),
 				],
 			}),
 		]),

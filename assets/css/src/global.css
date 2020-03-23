@@ -78,6 +78,7 @@
 .site {
 	margin: 0 auto;
 	max-width: 100%;
+	@apply bg-gray-100;
 }
 
 @media (--sidebar-query) {
@@ -244,7 +245,7 @@ select {
 
 .site-description {
 	margin: 0.4375em 0 0;
-	font-family: var(--highlight-font-family);
+	font-family: var(--global-font-family);
 	font-stretch: condensed;
 	font-size: 17px;
 	font-weight: inherit;
